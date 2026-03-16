@@ -4,11 +4,11 @@ interface Employee {
     void getDetails(String empId, String empName);
 }
 
-interface Manager extends Employee {
+interface Manager1 extends Employee {
     void getDeptDetails(String deptId, String deptName);
 }
 
-class Head implements Manager {
+class Head implements Manager1 {
     String empId, empName, deptId, deptName;
 
     public void getDetails(String empId, String empName) {
