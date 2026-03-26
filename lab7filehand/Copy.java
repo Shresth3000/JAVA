@@ -6,7 +6,7 @@ public class Copy {
 
 
 
-        FileInputStream in = new FileInputStream("C:\\Users\\KIIT\\Desktop\\oopj\\lab7filehand\\pic1.jpeg");
+     FileInputStream in = new FileInputStream("C:\\Users\\KIIT\\Desktop\\oopj\\lab7filehand\\pic1.jpeg");
         FileOutputStream out = new FileOutputStream("C:\\Users\\KIIT\\Desktop\\oopj\\lab7filehand\\pic3.jpeg");
 
         int c;
